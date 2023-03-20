@@ -23,4 +23,13 @@ In the learning level, you'll master new movements and techniques that are essen
 ## Game Level
 Once you've completed the learning level, it's time to put your skills to the test in the game level. Here, you'll face off against challenging enemies, using all the techniques you've already learned to progress through the game. Your moves are being recognized and compared by a custom-built gesture recognition system. Get ready for an intense and exciting gameplay!  
 
-<img src="./data/play.gif" width="640" height="360" />
+<img src="./data/play.gif" width="640" height="360" />  
+
+## Level
+### Learning Level  
+
+<img src="./data/LearningCollage.png" width="640" />  
+
+### Game Level  
+
+<img src="./data/GameCollage.png" width="640" />
