@@ -1,0 +1,546 @@
+{
+    "name": "ViveTrackerInput",
+    "maps": [
+        {
+            "name": "ViveTrackerLeftFoot",
+            "id": "28bd491d-096d-4cec-b22d-a4fdbd7cb563",
+            "actions": [
+                {
+                    "name": "TrackingStatus",
+                    "type": "Button",
+                    "id": "d1aad7f4-7d46-40e4-9dc2-df270f65c90e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "b9799ece-3296-408c-9c91-55bf7e8fb25b",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "7d869106-bf17-4550-80df-563ec7a96892",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "4979f8a7-46ef-4dcc-a9e7-36e4d45d584f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "55e000e9-eeb0-44aa-8970-b0c1cd7e40cd",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "77a715a4-f5c0-4d62-891b-670ca9aa1e4b",
+                    "path": "<XRViveTracker>{Left Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ef75838-5fe4-4650-8fa3-d86953e56a15",
+                    "path": "<XRViveTracker>{Left Foot}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4ff48f9-31b9-4ae2-8d99-c139d96509c5",
+                    "path": "<XRViveTracker>{Left Foot}/devicePose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingStatus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "346d3bcf-2a33-4096-bb21-d93ccf6bc8b1",
+                    "path": "<XRViveTracker>{Left Foot}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8f46f17-6db5-4c5a-8613-7ddfaf6c19d9",
+                    "path": "<XRViveTracker>{Left Foot}/devicePose/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ViveTrackerRightFoot",
+            "id": "4486e2f5-d867-4279-9bc9-b314cab3d8e3",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "93d6d146-5523-4c4f-a6dc-019b4bf756d3",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "0a890fb6-4643-4ae0-9eb0-c6517e86d9be",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingStatus",
+                    "type": "Button",
+                    "id": "f12b81c4-8c88-4c66-9819-2110a43eda1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "99cc28f4-ca5c-41bb-8a5f-1d1235f0816b",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "bf3b4f28-c32d-4c60-8953-3a201b096d7d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0bdf758-dc57-4de4-bb23-1381c1fbcbea",
+                    "path": "<XRViveTracker>{Right Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92654ef5-c698-404c-b024-19f52a75c073",
+                    "path": "<XRViveTracker>{Right Foot}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ceb3d8c-0b2e-403b-aa15-e9fa7141d054",
+                    "path": "<XRViveTracker>{Right Foot}/devicePose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingStatus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2049a1ac-31c2-4f97-b5eb-6d21554bed46",
+                    "path": "<XRViveTracker>{Right Foot}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56f575fc-8d4a-4a73-aafe-59970a624977",
+                    "path": "<XRViveTracker>{Right Foot}/devicePose/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ViveTrackerRightElbow",
+            "id": "6ac6e6bd-5add-42c0-8ccc-93c720b0c6e7",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "421ff386-102f-42e2-935e-329afcfe1aa2",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "67965805-5af9-4a68-973a-d573d1bdd384",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingStatus",
+                    "type": "Button",
+                    "id": "ae1d8b81-cc53-4d9e-9435-4d4a267030e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "d5e97bd7-183d-431b-8c09-099573a13486",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "702c8dfd-8c89-46e6-834a-d2897b1ee243",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f3ea0396-2b59-4515-9f1c-89ea72f35c81",
+                    "path": "<XRViveTracker>{Right Elbow}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb844e11-cda4-4b89-a8f2-6d65e7c8c5d5",
+                    "path": "<XRViveTracker>{Right Elbow}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9f7a917-0d5b-4509-912c-80c7a5b9918d",
+                    "path": "<XRViveTracker>{Right Elbow}/devicePose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingStatus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e31958aa-d4b2-444c-a123-eb309ff082e2",
+                    "path": "<XRViveTracker>{Right Elbow}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d452048c-e0e4-4ae7-8add-55e83fcb4d2b",
+                    "path": "<XRViveTracker>{Right Elbow}/devicePose/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ViveTrackerLeftElbow",
+            "id": "ef5d62d2-a452-42dd-a35f-f7bbc414ef0d",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "40719e3f-1004-4733-bc13-fc3d09a9f0f5",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "306c4f2a-3252-4213-afea-29e7edaaac46",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingStatus",
+                    "type": "Button",
+                    "id": "aab620aa-7ce2-4504-bfbb-18b7b855bfd8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "b143c215-7081-4ece-b6f2-75f1b0b13ece",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "809b7948-0844-4881-997b-4a781c117763",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fd557ff9-0107-47e6-b9d4-a6aa01e4cb03",
+                    "path": "<XRViveTracker>{Left Elbow}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2358dad0-9b94-4489-a8fe-4bfeb1e148e5",
+                    "path": "<XRViveTracker>{Left Elbow}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2c0feea-0cc4-4f16-a53b-bc61664f1248",
+                    "path": "<XRViveTracker>{Left Elbow}/devicePose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingStatus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9d7dec02-4e09-4985-844e-0ad5993457f8",
+                    "path": "<XRViveTracker>{Left Elbow}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30cd25ef-84a1-48a2-89c1-6a48690060f2",
+                    "path": "<XRViveTracker>{Left Elbow}/devicePose/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ViveTrackerWaist",
+            "id": "221bd4d1-c11e-4993-a504-4719f76b6933",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "a7c088df-6093-4183-935b-b52a65447244",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "e7eb97f2-ffae-4991-a751-4201057ba1f8",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingStatus",
+                    "type": "Button",
+                    "id": "da1c5f33-d475-4039-b673-254eefa2b3db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "ffb3281f-c820-4387-9a21-b21bfb7244f8",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "94bb37cd-2fbd-435e-b1e2-afdc00871211",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2998b096-9bf1-4183-ab8a-f6ca41cc7d71",
+                    "path": "<XRViveTracker>{Waist}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bf13422-01c6-4a95-aea8-ba3d48213470",
+                    "path": "<XRViveTracker>{Waist}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b58b524a-09b9-4b69-b6ab-a4af1f312427",
+                    "path": "<XRViveTracker>{Waist}/devicePose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingStatus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8730ed2e-6eed-4600-8b3a-388df23fea2c",
+                    "path": "<XRViveTracker>{Waist}/devicePose/velocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d56b35b-e354-4996-b2c7-d4aae46f442a",
+                    "path": "<XRViveTracker>{Waist}/devicePose/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
