@@ -2,7 +2,7 @@
 VR-Game with gesture recognition that can be played without any handheld controllers
 
 ## About
-Welcome to the VR-Game “The Art of Peace”, inspired by the martial art of Aikido. In this game, you'll use full-body tracking with HTC Vive trackers to control your movements and defeat your enemies. Let's take a closer look!
+Welcome to the VR-Game “The Art of Peace”, inspired by the martial art of Aikido. In this game, you'll use full-body tracking with HTC Vive trackers to control your movements and defeat your enemies. You can take a closer look below or watch the gameplay trailer [here](https://vimeo.com/838247634?share=copy)!
 
 ## Full-Body Avatar and Tracking
 A key element of this game is the full-body avatar, which mirrors your movements in real time. But before you start playing, you'll need to calibrate your avatar to match your own height and body proportions. This ensures accurate and responsive gameplay, and a fully immersive experience.  
